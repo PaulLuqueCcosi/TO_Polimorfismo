@@ -1,20 +1,5 @@
 #include <iostream>
-
-class Inmueble
-{
-  public:
-    Inmueble();
-    Inmueble(int area, int precioOriginal, std::string direccion);
-
-    virtual double calcularArea();
-    virtual double calcularPrecio();
-    virtual void vender();
-
-  protected:
-    int area;
-    int precioOriginal;
-    std::string direccion;
-};
+#include "Inmueble.h"
 
 Inmueble::Inmueble()
 {

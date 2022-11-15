@@ -7,12 +7,12 @@ class Inmueble
 {
 public:
   Inmueble(int area, int precioOriginal, std::string direccion);
-
+  Inmueble();
   virtual double calcularArea();
   virtual double calcularPrecio();
   virtual void vender();
 
-private:
+protected:
   int area;
   int precioOriginal;
   std::string direccion;
