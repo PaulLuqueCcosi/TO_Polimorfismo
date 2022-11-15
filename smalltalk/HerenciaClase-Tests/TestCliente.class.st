@@ -16,3 +16,13 @@ TestCliente >> testCliente [
 			
 	
 ]
+
+{ #category : #tests }
+TestCliente >> testHablar [
+	"comment stating purpose of instance-side method"
+	"scope: class-variables  &  instance-variables"	
+	|hablo|
+	hablo := (Cliente new) hablar.
+	
+	self assert: hablo equals: 'soy una persona y cliente'.
+]

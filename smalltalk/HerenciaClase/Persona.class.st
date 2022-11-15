@@ -24,7 +24,8 @@ Persona >> edad: aedad [
 Persona >> hablar [
 	"comment stating purpose of instance-side method"
 	"scope: class-variables  &  instance-variables"	
-	Transcript show: 'soy una persona' ; cr .		
+	Transcript show: 'soy una persona' ; cr .	
+	^ 'soy una persona'.	
 ]
 
 { #category : #initialization }
