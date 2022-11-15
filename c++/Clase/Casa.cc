@@ -1,10 +1,23 @@
-#include "Casa.h"
 #include <iostream>
+#include "Casa.h"
 
-Casa::Casa(int area, int precioOriginal, std::string direccion, int numPisos, int numHabitaciones) : Inmueble(area, precioOriginal, direccion)
+Casa::Casa(int area, int precioOriginal, std::string direccion, int numPisos, int numHabitaciones)
 {
-    this->numPisos = numPisos;
-    this->numHabitaciones = numHabitaciones;
+  
+  this->area = area;
+  this->precioOriginal = precioOriginal;
+  this->direccion = direccion;
+  this->numPisos = numPisos;
+  this->numHabitaciones = numHabitaciones;
+}
+
+Casa::Casa()
+{
+  this->area = 0;
+  this->precioOriginal = 0;
+  this->direccion = "";
+  this->numPisos = 0;
+  this->numHabitaciones = 0;
 }
 
 void Casa::vender(){

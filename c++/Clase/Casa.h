@@ -1,21 +1,23 @@
+#include "Inmueble.h"
 #ifndef CASA_H
 #define CASA_H
-#include "Inmueble.h"
 #include <string>
 
-class Casa : public Inmueble {
-  private:
-    int numPisos;
-    int numHabitaciones;
+class Casa{
+private:
+  int numPisos;
+  int numHabitaciones;
 
-  public:
-    Casa(int area, int precioOriginal, std::string direccion, int numPisos, int numHabitaciones);
+  int area;
+  int precioOriginal;
+  std::string direccion;
 
-    void vender();
-    double calcularArea();
-    double calcularPrecio();
-
-
+public:
+  Casa(int area, int precioOriginal, std::string direccion, int numPisos, int numHabitaciones);
+  Casa();
+  void vender();
+  double calcularArea();
+  double calcularPrecio();
 };
 
 #endif
