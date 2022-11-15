@@ -8,9 +8,9 @@ class Inmueble
 public:
   Inmueble(int area, int precioOriginal, std::string direccion);
 
-  double calcularArea();
-  double calcularPrecio();
-  void vender();
+  virtual double calcularArea();
+  virtual double calcularPrecio();
+  virtual void vender();
 
 protected:
   int area;

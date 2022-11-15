@@ -17,5 +17,6 @@ double Casa::calcularArea(){
 
 double Casa::calcularPrecio(){
   std::cout << "Calculando precio de casa" << std::endl;
+  return 0;
 }
 

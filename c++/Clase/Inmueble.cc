@@ -17,6 +17,7 @@ double Inmueble::calcularArea()
 double Inmueble::calcularPrecio()
 {
     std::cout << "Calculando precio de inmueble" << std::endl;
+    return 0;
 }
 
 void Inmueble::vender()
