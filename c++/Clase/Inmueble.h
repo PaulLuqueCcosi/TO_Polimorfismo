@@ -12,7 +12,7 @@ public:
   virtual double calcularPrecio();
   virtual void vender();
 
-protected:
+private:
   int area;
   int precioOriginal;
   std::string direccion;
