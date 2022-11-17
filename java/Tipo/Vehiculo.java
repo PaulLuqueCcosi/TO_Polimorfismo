@@ -1,4 +1,3 @@
-package Tipo;
 
 public interface Vehiculo {
     void acelerar();

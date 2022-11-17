@@ -1,4 +1,3 @@
-package Tipo;
 
 public class Carro implements Vehiculo {
     public void acelerar() {
