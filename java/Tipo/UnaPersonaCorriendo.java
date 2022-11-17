@@ -1,4 +1,3 @@
-package Tipo;
 
 public class UnaPersonaCorriendo implements Vehiculo {
 
